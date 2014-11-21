@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Apple</title>
+    <style type="text/css">
+        a.one:link{text-decoration: none;color: #FFFFFF;}
+        a.one:visited{text-decoration: none;color: #FFFFFF;}
+        a.one:hover{text-decoration: none;color: #9F9F9F;}
+        a.one:active{text-decoration: none;color: #9F9F9F;}
+        a.two:link{text-decoration: none;color: #666666;}
+        a.two:visited{text-decoration: none;color: #666666;}
+        a.two:hover{text-decoration: underline;color: #666666;}
+        a.two:active{text-decoration: none;color: #666666;}
+        body
+        {
+            margin: 0px;
+            width: 100%;
+            height: 100%;
+            min-width: 768px;
+        }
+        
+        #wrapper {
+            margin: 0px;
+            width: 100%;
+        }
+        #header {
+            width: 100%;
+            margin: 0px;
+            border: 0px;
+            height: 621px;
+            background-image: url(images/tent_large0.jpg);
+            background-size:100%;
+            background-repeat:no-repeat;
+            background-position: 0px -120px;
+
+        }
+        #header_m1 {
+            
+            margin: 0px;
+            width: 100%;
+            height: 46px;
+            background-color: rgba(0,0,0,0.6);
+        }
+        #header_middle {
+            margin-top: 0px; 
+            margin-left: auto;
+            margin-right: auto;
+            padding: 0px;
+            border: 0px;
+            width: 1000px;
+            height: 46px;
+            font-size: 15px;
+            color: #FFFFFF;
+            font-style: 微软雅黑;
+            font-weight: normal;
+            /*line-height: 1;*/
+            /*  background-color: rgba(0,0,0,0.6);*/
+        }
+        #header1 {
+            margin-top: -2px
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 8.5px;
+            width: 20px;
+            height: 37px;
+            display: inline-block;
+        }
+        #header2 {
+            vertical-align: middle;
+            padding-left: 45px;
+            padding-right: 20px;
+            width: 81px;
+            height: 28.5px;
+            display: inline-block;
+
+        }
+        #header3 {
+            vertical-align: middle;
+            padding-left: 25px;
+            padding-right: 25px;
+            width: 61px;
+            height: 28.5px;
+            display: inline-block;
+        }
+        #header4 {
+            vertical-align: middle;
+            padding-left: 10px;
+            padding-right: 25px;
+            width: 54px;
+            height: 28.5px;
+            display: inline-block;
+
+        }
+        #header5 {
+            vertical-align: middle;
+            padding-left: 25px;
+            padding-right: 25px;
+            width: 48px;
+            height: 28.5px;
+            display: inline-block;
+        }
+        .header6 {
+            vertical-align: middle;
+            padding-left: 25px;
+            padding-right: 25px;
+            width: 34px;
+            height: 28.5px;
+            display: inline-block;
+
+        }
+        #header7 {
+            vertical-align: middle;
+            padding-left: 25px;
+            padding-right: 25px;
+            width: 54px;
+            height: 28.5px;
+            display: inline-block;
+        }
+        #header8 {
+            vertical-align: middle;
+            padding-left: 25px;
+            padding-right: 25px;
+            width: 81px;
+            height: 28.5px;
+            display: inline-block;
+        }
+         #header9 {    
+            margin-top: -2px;
+            padding-left: 10px;
+            padding-right: 0px;
+            padding-top: 8.5px;
+            width: 26px;
+            height: 37px;
+            display: inline-block;
+        }
+        #header_m2 {
+            margin: 0px;
+            padding-top: 230px;
+            padding-bottom: 317px;
+            pointer-events: none;
+            margin-top: 0;
+            z-index: 6;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            display: table;
+           
+        }
+
+        #below {
+            width: 100%;
+            height: 200px;
+            margin: 0px;
+            border: 0px;
+            padding-bottom: 4px;
+            padding-top: 4px;
+        }
+        #below_little1 {
+            display: inline-block;
+            min-height: 200px;
+            height: 200px;
+            width: 24.5%;
+            background-image: url(images/promo_ipad_large.jpg);
+            background-position: top center;
+            border-right: 2px;
+        }
+        #below_little2 {
+            display: inline-block;
+            min-height: 200px;
+            height: 200px;
+            width: 24.5%;
+            background-image: url(images/promo_iphone6_large.jpg);
+            background-position: top center;
+            border-right: 2px;
+        }
+        #below_little3 {
+            display: inline-block;
+            min-height: 200px;
+            height: 200px;
+            width: 24.5%;
+            background-image: url(images/promo_watch_large.jpg);
+            background-position: top center;
+            border-right: 2px;
+        }
+        #below_little4 {
+            display: inline-block;
+            min-height: 200px;
+            height: 200px;
+            width: 24.5%;
+            background-image: url(images/promo_imac_large.jpg);
+            background-position: top center;
+        }
+
+        #footer_wrapper {
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 22px;
+            padding-right: 22px;
+        }
+        #footer {
+           /* margin-left: 0px;
+            margin-right: 0px;
+            padding-top: 4px;
+            padding-left: 22px;
+            padding-right: 22px;  
+            height: 82px;
+            width: auto;
+            float: left;  */
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 18px;
+            padding-left: 0px;
+            padding-right: 0px;
+            padding-top: 18px;
+            max-width: 980px;
+            color: rgb(153, 153, 153);
+            display: block;
+            font-family: PingHei, 'Lucida Grande', 'Lucida Sans Unicode', STHeiti, Helvetica, Arial, Verdana, sans-serif;
+            font-size: 3px;
+            font-style: normal;
+            font-weight: normal;
+            height: 46px;
+         /*   line-height: 1;*/
+            width: 980px;    
+    
+        }
+        #f1 {
+            color: rgb(153, 153, 153);
+            display: block;
+            float: left;
+            height: 15px;
+            line-height: 16px;
+            margin-bottom: 8px;
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-top: 0px;
+            padding-bottom: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+            padding-top: 0px;
+            white-space: nowrap;
+            width: 468.46875px;            
+        }
+        #f2 {
+            color: rgb(153, 153, 153);
+            display: block;
+            float: left;
+            height: 15px;
+            line-height: 16px;
+            margin-bottom: 8px;
+            margin-right: 6px;
+            margin-top: 0px;
+          /*  width: 686px;*/
+        }
+        #f3 {
+            color: rgb(153, 153, 153);
+            display: block;
+            float: right;
+            height: 15px;
+            line-height: 16px;
+            list-style-type: disc;
+            margin-bottom: 8px;
+            margin-left: 13.33px;
+            margin-right: 6px;
+            margin-top: 0px;
+            padding-bottom: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+            padding-top: 0px;
+            width: auto;
+        }
+        #f3 li a {
+             padding: 0 0.5em 0 0;
+             margin-right: 0.3333em;
+             border-right: 1px solid #e3e3e3;
+             white-space: nowrap;
+        }
+        #f3 li a img {
+            position: relative;
+            left: 270px;
+            top: -15px;
+        }
+        #f4 {
+            color: rgb(153, 153, 153);
+            display: inline;
+            float: left;
+            height: auto;
+            line-height: 16px;
+            list-style-type: disc;
+            margin-bottom: 12px;
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-top: 0px;
+            padding-bottom: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+            padding-top: 0px;
+            width: auto;
+        }
+        #f5 {
+            color: rgb(153, 153, 153);
+            display: inline;
+            float: right;
+            height: 15px;
+            line-height: 16px;
+            list-style-type: disc;
+            margin-bottom: 8px;
+            margin-left: 13.33px;
+            margin-right: 6px;
+            margin-top: 0px;
+            padding-bottom: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+            padding-top: 0px;
+          /*  width: 206.17px;*/
+        }
+
+        ul{
+            list-style-type:none;
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        li{
+            display:inline;
+        }
+
+        h1 {
+            margin: 0px;           
+            font-family: 微软雅黑;
+            color: #FFFFFF;
+            font-size: 53px;
+            font-style: normal;
+            font-weight: normal;
+            line-height: 74px;
+            text-align: center;
+        }        
+
+    </style>  
+    <script>
+    function onload(){
+        var header=document.getElementById("header");
+        header.style.cursor="pointer";
+        header.onclick=function(){
+        location.href="http://store.apple.com/cn?aos-japaccn-holiday2014-home";
+        }   
+    }
+     
+    </script>
+</head>
+
+<body onload="onload();">
+    <div id="wrapper">
+            <div id="header">
+            
+                <div id="header_m1">
+                    <div id="header_middle">
+                        <div id="header1">
+                            <a href="http://www.apple.com/cn/"><img src="images/tab_apple.png"></a>
+                        </div>
+                        <div id="header2">
+                            <a class="one" href="http://store.apple.com/cn">在线商店</a>
+                        </div>
+                        <div id="header3">
+                            <a class="one" href="http://www.apple.com/cn/mac/">Mac</a>
+                        </div>
+                        <div id="header4">
+                            <a class="one" href="http://www.apple.com/cn/iphone/">iPhone    
+                            </a>
+                        </div>
+                        <div id="header5">
+                            <a class="one" href="http://www.apple.com/cn/watch/">Watch</a>
+                        </div>
+                        <div class="header6">
+                            <a class="one" href="http://www.apple.com/cn/ipad/">iPad</a>
+                        </div>
+                        <div class="header6">
+                            <a class="one" href="http://www.apple.com/cn/ipod/">iPod</a>
+                        </div>
+                        <div id="header7">
+                            <a class="one" href="http://www.apple.com/cn/itunes/">iTunes</a>
+                        </div>
+                        <div id="header8">
+                            <a class="one" href="http://www.apple.com/cn/support/">技术支持</a>
+                        </div>
+                        <div id="header9">
+                            <img src="images/search_icon_white.png">
+                        </div>
+                    </div>
+                </div>
+                
+            
+                <div id="header_m2">
+                    <h1>一份薄礼，精彩重重。</h1>
+                </div>
+
+            </div>
+
+        
+        <ul id="below">
+            <li>
+                <a id="below_little1" href="http://www.apple.com/cn/ipad-air-2/"></a>
+            </li>
+            <li>
+                <a id="below_little2" href="http://www.apple.com/cn/iphone-6/"></a>
+            </li>
+            <li>
+                <a id="below_little3" href="http://www.apple.com/cn/watch/"></a>
+            </li>
+            <li>
+                <a id="below_little4" href="http://www.apple.com/cn/imac-with-retina/"></a>
+            </li>
+        </ul>
+        <div style="width:0px;height:0px;position:absolute;top:-999px;left:-999px;"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" id="erroralert" width="1px" height="1px"><param name="AllowScriptAccess" value="always"/><param name="movie" value="http://tongji.baidu.com/logstat.swf"/><embed name="erroralert" width="1px" height="1px" allowscriptaccess="always" align="middle" src="http://tongji.baidu.com/logstat.swf" type="application/x-shockwave-flash"/></object></div>
+
+        
+        <div id="footer_wrapper">
+            <div id="footer">
+                <p id="f1" sstyle="white-space:nowrap;">
+                    <span>
+                        访问&nbsp;
+                        <a class="two" href="http://store.apple.com/go/country/cn/home">Apple&nbsp;Store&nbsp;在线商店</a>
+                    &nbsp;(400-666-8800),&nbsp;
+                    </span>
+                    前往&nbsp;
+                    <a class="two" href="http://www.apple.com/cn/retail/">Apple&nbsp;Store&nbsp;零售店</a>
+                    , 或查找在你附近的
+                    <a class="two" href="http://www.apple.com/cn/buy/">授权经销商</a>
+                    。
+                </p>
+                <ul id="f3">
+                    <li>
+                        <a class="two" href="http://www.apple.com/cn/about/">Apple&nbsp;资讯</a>
+                    </li>
+                    <li>
+                        <a class="two" href="http://www.apple.com/cn/sitemap/">网站地图</a>
+                    </li>
+                    <li>
+                        <a class="two" href="http://www.apple.com/cn/hotnews/">热点新闻</a>
+                    </li>
+                    <li>
+                        <a class="two" href="http://www.apple.com/cn/contact/">联系我们</a>
+                    </li>
+                    <li>
+                            <a class="two" href="http://www.apple.com/choose-your-country/" style="border: 0px">
+                                <img src="images/china_2x.png" style="width: 14px; height: 14px;">
+                            </a>
+                        
+                    </li>
+                </ul>
+                <br/>
+                <div id="f2">
+                    <span style="float: left;">Copyright © 2014 Apple Inc. 保留所有权利。</span>
+                    <ul id="f4">
+                        <li style="border-right: 1px solid #e3e3e3;">
+                            <a class="two" href="http://www.apple.com/cn/legal/terms/site.html">使用条款</a>
+                        </li>
+                        <li style="border-left: 1px solid #FFFFFF;">
+                            <a class="two" href="http://www.apple.com/cn/privacy/privacy-policy/">隐私政策更新</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+                
+                <span id="f5">
+                    京公安网安备&nbsp;11010500896&nbsp;
+                    <a class="two" href="http://www.miibeian.gov.cn/">京ICP备10214630</a>
+                </span>
+            </div>
+        </div>
+
+    
+</body>
+</html>
+
+
+
+
+        
